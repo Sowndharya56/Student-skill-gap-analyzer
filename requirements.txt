@@ -1,0 +1,20 @@
+# Core Data Science & Machine Learning Dependencies (Pinned for Exact Reproducibility)
+pandas==2.3.2
+numpy==1.26.4
+scikit-learn==1.7.2
+joblib==1.5.1
+
+# Visualization & Reporting
+matplotlib==3.10.5
+seaborn==0.13.2
+plotly==6.9.0
+reportlab==4.4.3
+
+# Interactive Web Application
+streamlit==1.61.1
+
+# Natural Language Processing
+nltk==3.10.3
+
+# Automated Unit Testing
+pytest==9.1.1

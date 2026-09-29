@@ -1,0 +1,129 @@
+{
+    "dataset_name": "Student Career Profiles Dataset",
+    "dataset_source": "Development Benchmark Fixture (Synthetic Profile Generator)",
+    "model_name": "Support Vector Machine",
+    "selection_metric": "5-Fold Stratified CV Mean Weighted F1 (Training Data Only)",
+    "training_date": "2026-08-13 14:36:36",
+    "cv_mean_weighted_f1": 0.926,
+    "cv_mean_accuracy": 0.9267,
+    "final_test_metrics": {
+        "test_accuracy": 0.91,
+        "test_precision_weighted": 0.91,
+        "test_recall_weighted": 0.91,
+        "test_f1_weighted": 0.9095
+    },
+    "target_variable": "Target_Career",
+    "classes": [
+        "AI Specialist",
+        "Backend Developer",
+        "Business Intelligence Developer",
+        "Cloud & DevOps Engineer",
+        "Cybersecurity Analyst",
+        "Data Analyst",
+        "Data Scientist",
+        "Frontend Developer",
+        "Full Stack Developer",
+        "Machine Learning Engineer"
+    ],
+    "feature_names": [
+        "Python",
+        "SQL",
+        "R",
+        "Java",
+        "C++",
+        "JavaScript",
+        "Data_Analysis",
+        "Machine_Learning",
+        "Deep_Learning",
+        "NLP",
+        "Data_Visualization",
+        "Cloud_Computing",
+        "DevOps_CICD",
+        "Docker_Kubernetes",
+        "Database_Design",
+        "Big_Data",
+        "Cybersecurity_Basics",
+        "Statistics_Math",
+        "Problem_Solving",
+        "Communication",
+        "Prog_Core_Index",
+        "Data_Analytics_Index",
+        "AI_Intelligent_Index",
+        "Cloud_DevOps_Index",
+        "Overall_Skill_Score",
+        "Skill_Variability",
+        "Advanced_Skills_Count",
+        "Developing_Skills_Count",
+        "Employability_Index"
+    ],
+    "num_features": 29,
+    "train_samples_count": 1200,
+    "test_samples_count": 300,
+    "random_state": 42,
+    "test_size": 0.2,
+    "cv_folds": 5,
+    "cv_strategy": "StratifiedKFold(n_splits=5, shuffle=True, random_state=42)",
+    "cv_benchmarks_table": [
+        {
+            "Model": "Support Vector Machine",
+            "CV Mean F1 (Weighted)": 0.926,
+            "CV Std F1": 0.0199,
+            "CV Mean Accuracy": 0.9267,
+            "CV Std Accuracy": 0.0193,
+            "CV Mean Precision": 0.9296,
+            "CV Mean Recall": 0.9267
+        },
+        {
+            "Model": "Logistic Regression",
+            "CV Mean F1 (Weighted)": 0.9182,
+            "CV Std F1": 0.0145,
+            "CV Mean Accuracy": 0.9192,
+            "CV Std Accuracy": 0.0136,
+            "CV Mean Precision": 0.9228,
+            "CV Mean Recall": 0.9192
+        },
+        {
+            "Model": "Random Forest",
+            "CV Mean F1 (Weighted)": 0.9162,
+            "CV Std F1": 0.0078,
+            "CV Mean Accuracy": 0.9167,
+            "CV Std Accuracy": 0.0075,
+            "CV Mean Precision": 0.9185,
+            "CV Mean Recall": 0.9167
+        },
+        {
+            "Model": "K-Nearest Neighbors",
+            "CV Mean F1 (Weighted)": 0.8952,
+            "CV Std F1": 0.0128,
+            "CV Mean Accuracy": 0.8958,
+            "CV Std Accuracy": 0.0126,
+            "CV Mean Precision": 0.8978,
+            "CV Mean Recall": 0.8958
+        },
+        {
+            "Model": "Gradient Boosting",
+            "CV Mean F1 (Weighted)": 0.8899,
+            "CV Std F1": 0.0129,
+            "CV Mean Accuracy": 0.89,
+            "CV Std Accuracy": 0.0125,
+            "CV Mean Precision": 0.8946,
+            "CV Mean Recall": 0.89
+        },
+        {
+            "Model": "Decision Tree",
+            "CV Mean F1 (Weighted)": 0.8144,
+            "CV Std F1": 0.0129,
+            "CV Mean Accuracy": 0.815,
+            "CV Std Accuracy": 0.012,
+            "CV Mean Precision": 0.8198,
+            "CV Mean Recall": 0.815
+        }
+    ],
+    "environment": {
+        "python_version": "3.10.3",
+        "scikit_learn_version": "1.7.2",
+        "pandas_version": "2.3.2",
+        "numpy_version": "1.26.4",
+        "joblib_version": "1.5.1"
+    }
+}
